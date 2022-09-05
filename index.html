@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- 웹페이지 보이지는 않지만, 필요한 설정을 해두는 곳이에요.
+             우리가 집을 위해 미리 생각 해놓은 것을 적어두는 곳이라고 할 수 있죠!-->
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta property="og:title" content="고앵이 - 프로필 링크" />
+        <meta property="og:description" content="어서와 앵고는 처음이지?" />
+        <meta property="og:image" content="cat.webp" />
+        <title>르탄이 - 프로필 링크</title>
+        <style>
+            @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+            * {
+                font-family: "Pretendard",serif;
+}
+            body {
+                background: #44398A;
+            }
+            .profile {
+                width: 100px;
+                height: 100px;
+
+                border-radius: 100%;
+
+                border: 2px solid white;
+
+                background-image: url('cat.webp');
+                background-position: center;
+                background-size: cover;
+            }
+            .main {
+                color: white;
+                font-size: 20;       
+                
+                margin-top: 30px;
+                margin-bottom: 10px
+            }
+            .sub {
+                color: white;
+                font-size: 14;
+
+                margin-top: 0px;
+                margin-bottom: 30px;
+            }
+
+            .wrap {
+                width: 300px;
+                margin: 30px auto 0px auto;
+
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .wrap > a {
+                width: 300px;
+                height: 50px;
+
+                background-color: white;
+                border-radius: 8px;
+
+                margin-bottom: 10px;
+
+                font-size: 14px;
+                font-weight: bold;
+                color: #44398A;
+
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                text-decoration: none;
+
+                box-shadow: 3px 3px 5px 0px black;
+            }
+
+            .wrap > a:hover{
+                background-color: #f2f2f2;
+                /* font-size:20px; */
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="wrap">
+            <div class="profile"></div>
+            <h1 class="main">고앵이</h1>
+            <p class="sub">고앵.. 좋아하세요..?</p>
+            <a target="_blank" href="https://google.com/">number1</a>
+            <a target="_blank" href="https://google.com/">number2</a>
+            <a target="_blank" href="https://google.com/">number3</a>
+            <a target="_blank" href="https://google.com/">number4</a>
+        </div>
+        
+    </body>
+</html>
